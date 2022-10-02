@@ -1,10 +1,11 @@
 import './assets/css/app.css';
-import Wrapper from './components/Wrapper';
+// import Wrapper from './components/Wrapper';
+import AppRouter from './routers/AppRouter';
 
 function App() {
   return (
     <div className="App">
-      <Wrapper />
+      <AppRouter />
     </div>
   );
 }

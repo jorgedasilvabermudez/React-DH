@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom"
 const SideBar = () => {
   return (
       <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
             {/* <!-- Sidebar --> */}
 
 			{/* <!-- Sidebar - Brand --> */}
-			<a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+			<Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/">
 				<div className="sidebar-brand-icon">
 					<img className="w-100" src="./images/logo-DH.png" alt="Digital House"/>
 				</div>
-			</a>
+			</Link>
 
 			{/* <!-- Divider --> */}
 			<hr className="sidebar-divider my-0"/>
