@@ -1,5 +1,6 @@
 import Footer from '../components/Footer';
 import TopBar from '../components/TopBar';
+import Chart from './Chart';
 import ContentRowTop from './ContentRowTop';
 
 const ContentWrapper = () => {
@@ -11,6 +12,7 @@ const ContentWrapper = () => {
 			<div id="content">
 			<TopBar />
 			<ContentRowTop />
+			<Chart />
 			</div>
 			{/* <!-- End of MainContent --> */}
 			<Footer />
