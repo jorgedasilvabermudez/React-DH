@@ -4,6 +4,7 @@ import Wrapper from "../components/Wrapper"
 import GenresInDb from "../components/GenresInDb"
 import LastMovieInDb from "../components/LastMovieInDb"
 import ContentRowMovies from "../components/ContentRowMovies"
+import SearchMovies from "../components/SearchMovies"
 
 const AppRouter = () => {
   return (   
@@ -13,6 +14,7 @@ const AppRouter = () => {
             <Route path="/GenresInDb" element={ <GenresInDb />}  />
             <Route path="/LastMovieInDb" element={ <LastMovieInDb/>}  />
             <Route path="/ContentRowMovies" element={ <ContentRowMovies />}  />
+            <Route path="/search" element={ <SearchMovies />}  />
             <Route path='*' element={ 'Error 404' } />
         </Routes>
     </BrowserRouter>
